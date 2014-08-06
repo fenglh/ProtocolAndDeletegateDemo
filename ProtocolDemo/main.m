@@ -7,14 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ZhangSan.h"
+#import "LiSi.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        ZhangSan * zhangsan = [[ZhangSan alloc] init];
+        LiSi *lisi = [[LiSi alloc] init];
+        
+        lisi.delegate = zhangsan;
+        [lisi IWantByApple];
         
     }
     return 0;

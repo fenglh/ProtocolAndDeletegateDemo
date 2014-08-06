@@ -10,6 +10,8 @@
 		0CB5FDC7199228070037686D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB5FDC6199228070037686D /* Foundation.framework */; };
 		0CB5FDCA199228070037686D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5FDC9199228070037686D /* main.m */; };
 		0CB5FDCE199228070037686D /* ProtocolDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CB5FDCD199228070037686D /* ProtocolDemo.1 */; };
+		0CB5FDDA19922A820037686D /* ZhangSan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5FDD919922A820037686D /* ZhangSan.m */; };
+		0CB5FDDD19922A940037686D /* LiSi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5FDDC19922A940037686D /* LiSi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,11 @@
 		0CB5FDC9199228070037686D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB5FDCC199228070037686D /* ProtocolDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProtocolDemo-Prefix.pch"; sourceTree = "<group>"; };
 		0CB5FDCD199228070037686D /* ProtocolDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ProtocolDemo.1; sourceTree = "<group>"; };
+		0CB5FDD7199228700037686D /* ByAppleDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ByAppleDelegate.h; sourceTree = "<group>"; };
+		0CB5FDD819922A820037686D /* ZhangSan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhangSan.h; sourceTree = "<group>"; };
+		0CB5FDD919922A820037686D /* ZhangSan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhangSan.m; sourceTree = "<group>"; };
+		0CB5FDDB19922A940037686D /* LiSi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiSi.h; sourceTree = "<group>"; };
+		0CB5FDDC19922A940037686D /* LiSi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiSi.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,11 @@
 			isa = PBXGroup;
 			children = (
 				0CB5FDC9199228070037686D /* main.m */,
+				0CB5FDD7199228700037686D /* ByAppleDelegate.h */,
+				0CB5FDD819922A820037686D /* ZhangSan.h */,
+				0CB5FDD919922A820037686D /* ZhangSan.m */,
+				0CB5FDDB19922A940037686D /* LiSi.h */,
+				0CB5FDDC19922A940037686D /* LiSi.m */,
 				0CB5FDCD199228070037686D /* ProtocolDemo.1 */,
 				0CB5FDCB199228070037686D /* Supporting Files */,
 			);
@@ -140,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CB5FDCA199228070037686D /* main.m in Sources */,
+				0CB5FDDA19922A820037686D /* ZhangSan.m in Sources */,
+				0CB5FDDD19922A940037686D /* LiSi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
